@@ -37,7 +37,7 @@ namespace QuickBuy.Web
                 configuration.RootPath = "ClientApp/dist";
             });
 
-            var connectionString = Configuration.GetConnectionString("MysqlConnection");
+            var connectionString = Configuration.GetConnectionString("QuickBuyDB");
 
             services.AddDbContext<QuickBuyContexto>(options =>
                                                              options.UseMySql(connectionString,

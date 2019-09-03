@@ -1,3 +1,8 @@
 {
-  "MysqlConnection": "Server=myServerAddress;Port=1234;Database=myDataBase;Uid=myUsername;Pwd=myPassword;"
-}
+  "ConnectionStrings": {
+    {
+      "SqlServerConnection": "",
+      "QuickBuyDB": "Server=localhost;Database=QuickBuyDB;Uid=lucasmartiness;Pwd=Ferrari430;"
+    }
+  }
+} 

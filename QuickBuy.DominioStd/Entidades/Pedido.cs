@@ -14,7 +14,7 @@ namespace QuickBuy.Dominio.Entidades
         public DateTime DataPrevisaoEntrega { get; set; }
 
         public string CEP { get; set; }
-
+        
         public string Estado { get; set; }
 
         public string EnderecoCompleto { get; set; }
