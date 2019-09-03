@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.Dominio", "QuickBuy.Dominio\QuickBuy.Dominio.csproj", "{903F514D-E061-45B5-AAF0-E903D9B6B9E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickBuy.Web", "QuickBuy.Web\QuickBuy.Web.csproj", "{9FEACA95-C64C-4207-B6FA-094E387D456B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.Repositorio", "QuickBuy.Repositorio\QuickBuy.Repositorio.csproj", "{175B4E6A-B907-4568-8220-7F899F67733F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.DominioStd", "QuickBuy.DominioStd\QuickBuy.DominioStd.csproj", "{F859F48E-A74F-4C82-AED5-4CB8842570E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.Web", "QuickBuy.Web\QuickBuy.Web.csproj", "{9FEACA95-C64C-4207-B6FA-094E387D456B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuyckBuy.Repositorio.Std", "QuyckBuy.Repositorio.Std\QuyckBuy.Repositorio.Std.csproj", "{CF67FC74-0BAA-459A-9136-FA8B4C8FB0B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{903F514D-E061-45B5-AAF0-E903D9B6B9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{903F514D-E061-45B5-AAF0-E903D9B6B9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{903F514D-E061-45B5-AAF0-E903D9B6B9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{903F514D-E061-45B5-AAF0-E903D9B6B9E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{175B4E6A-B907-4568-8220-7F899F67733F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{175B4E6A-B907-4568-8220-7F899F67733F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{175B4E6A-B907-4568-8220-7F899F67733F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{175B4E6A-B907-4568-8220-7F899F67733F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9FEACA95-C64C-4207-B6FA-094E387D456B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9FEACA95-C64C-4207-B6FA-094E387D456B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FEACA95-C64C-4207-B6FA-094E387D456B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FEACA95-C64C-4207-B6FA-094E387D456B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F859F48E-A74F-4C82-AED5-4CB8842570E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F859F48E-A74F-4C82-AED5-4CB8842570E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F859F48E-A74F-4C82-AED5-4CB8842570E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F859F48E-A74F-4C82-AED5-4CB8842570E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF67FC74-0BAA-459A-9136-FA8B4C8FB0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF67FC74-0BAA-459A-9136-FA8B4C8FB0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF67FC74-0BAA-459A-9136-FA8B4C8FB0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF67FC74-0BAA-459A-9136-FA8B4C8FB0B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
