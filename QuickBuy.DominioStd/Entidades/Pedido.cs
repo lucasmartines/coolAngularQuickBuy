@@ -4,12 +4,14 @@ using System.Linq;
 
 namespace QuickBuy.Dominio.Entidades
 {
-    public class Pedido:Entidade
+    public class Pedido : Entidade
     {
         public int Id { get; set; }
         public DateTime DataPedido { get; set; }
 
-        public int UsuarioId { get; set; }
+
+         public int UsuarioId { get; set; }
+        public virtual Usuario Usuario{get;set;}
 
         public DateTime DataPrevisaoEntrega { get; set; }
 
@@ -22,12 +24,12 @@ namespace QuickBuy.Dominio.Entidades
         public string NumeroEndereco { get; set; }
 
         public int FormaPagamentoId { get; set; }
-        public FormaPagamento FormaPagamento { get; set; }
+        public virtual FormaPagamento FormaPagamento { get; set; }
         /**
          * Um pedido pode ter varios items de pedidos tipo
          
          * */
-        public ICollection<Usuario> ItensPedidos { get; set; }
+        public virtual ICollection<Usuario> ItensPedidos { get; set; }
 
         public override void Validate()
         {

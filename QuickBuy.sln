@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickBuy.Web", "QuickBuy.Web\QuickBuy.Web.csproj", "{9FEACA95-C64C-4207-B6FA-094E387D456B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.DominioStd", "QuickBuy.DominioStd\QuickBuy.DominioStd.csproj", "{F859F48E-A74F-4C82-AED5-4CB8842570E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickBuy.DominioStd", "QuickBuy.DominioStd\QuickBuy.DominioStd.csproj", "{F859F48E-A74F-4C82-AED5-4CB8842570E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuyckBuy.Repositorio.Std", "QuyckBuy.Repositorio.Std\QuyckBuy.Repositorio.Std.csproj", "{CF67FC74-0BAA-459A-9136-FA8B4C8FB0B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuyckBuy.Repositorio.Std", "QuyckBuy.Repositorio.Std\QuyckBuy.Repositorio.Std.csproj", "{CF67FC74-0BAA-459A-9136-FA8B4C8FB0B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

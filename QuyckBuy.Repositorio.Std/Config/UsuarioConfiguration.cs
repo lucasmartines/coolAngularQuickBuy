@@ -32,6 +32,9 @@ namespace QuyckBuy.Repositorio.Std.Config
 
             // fluent nome chique para dot sintaxe
 
+            builder
+                .HasMany(u => u.Pedidos)
+                .WithOne( p => p.Usuario );
         }
     }
 }

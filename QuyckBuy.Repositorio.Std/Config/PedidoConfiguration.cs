@@ -40,6 +40,9 @@ namespace QuyckBuy.Repositorio.Std.Config
                .Property(p => p.FormaPagamentoId)
                .IsRequired();
 
+            //builder
+                //.HasOne(u => u.Usuario);
+
         }
     }
 }
